@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 1300px;
+  height: 600px;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 3%;
+}
+.central_container {
+  width: 65%;
+  height: 85%;
+  margin: auto;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Ubuntu', sans-serif;
+}
+.image{
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 35px;
+}
+.logo{
+  text-align: center;
+  color: #08dc04;
+}
+.bar {
+  width: 90%;
+  margin: auto;
+  background-color: #08dc04;
+  text-align: center;
+  padding: 5px;
+}
+main {
+  width: 90%;
+  margin:auto;
+  color: white;
+}
+.user {
+  margin-top: 2%;
+  font-size: 12px;
+}
+.charge_bar {
+  margin-top: 2px;
+  height: 14px;
+  border-radius: 5px;
+}
+.orange.charge_bar {
+  width: 35%;
+  background-color: orange;
+}
+.green.charge_bar{
+  width: 60%;
+  background-color: #08dc04;
+}
+.red.charge_bar {
+  width: 27%;
+  background-color: red;
+}
